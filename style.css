@@ -1,0 +1,146 @@
+body {
+    display:flex;
+    flex-direction: column;
+    justify-items:space-between;
+}
+
+.header {
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    background-color: #1F2937;
+    font-family:'Roboto';
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color:white;
+}
+
+.logo {
+    flex:1 1 50%;
+    display:flex;
+    justify-content:space-around;
+    
+}
+
+
+.header-links {
+    flex:1 1 50%;
+    display:flex;
+    justify-content:center;
+    gap:30px;
+    
+}
+
+.one {
+    background-color: #1F2937;
+    display:flex;
+    color:white;
+    justify-content: center;
+    gap:100px;
+    padding:50px;
+
+}
+
+.one-left {
+    flex:1 1 50%;
+    max-width:400px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:flex-start;
+    font-family: 'Roboto';
+}
+
+.one-right {
+    flex:1 1 50%;
+    max-width:600px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    font-size:48px;
+    font-weight: 900;
+    color:#F9FAF8;
+    
+}
+
+button {
+    background-color: #3882F6;
+    width:90px;
+    height:35px;
+    border-radius: 20px;
+    color:white;
+    font-weight: 300;
+}
+
+.two {
+    
+}
+
+.boxes {
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    gap:30px;
+
+}
+
+.two-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Roboto';
+    font-size: 16px;
+}
+
+.three {
+    display:flex;
+    justify-content: center;
+    font-size: 36px;
+    font-weight:150;
+    color:#1F2937;
+    padding:100px;
+    background-color: #E5E7EB;
+}
+
+.four {
+    display:flex;
+    justify-content: center;
+    padding:50px;
+    font-family: 'Roboto';
+
+}
+
+.rectangle {
+    flex-grow:1;
+    max-width: 800px;
+    background-color: #3882F6;
+    border-radius: 20px;
+    padding:20px;
+    display:flex;
+    align-items:center;
+    justify-content:space-around;
+
+}
+
+.ha {
+    font-size: 28px; 
+    color:white
+}
+
+.second-btn {
+    border:2px solid white;
+}
+
+footer {
+    padding:20px;
+    background-color: #1F2937;
+    text-align: center;
+    color:white;
+}
